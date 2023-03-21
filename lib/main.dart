@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:themes_app/themes.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,9 +12,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      debugShowCheckedModeBanner: false,
+      themeMode: ThemeMode.system,
+      theme: ThemeClass.lightTheme,
+      darkTheme: ThemeClass.darkTheme,
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
