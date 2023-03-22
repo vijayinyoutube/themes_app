@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       themeMode: ThemeMode.system,
       theme: ThemeClass.lightTheme, // applies this theme if the device theme is light mode
-      darkTheme: ThemeClass.darkTheme, // apploes this theme if the device theme is dark mode
+      darkTheme: ThemeClass.darkTheme, // applies this theme if the device theme is dark mode
       home: const MyHomePage(title: 'Flutter Demo Home Page'),
     );
   }
