@@ -36,7 +36,7 @@
 
 ## App
   
-Check out the video tutorial (YouTube) 👉 :
+Check out the video tutorial (YouTube) 👉 : https://youtu.be/b2fqLJ3tiLg
 
 To know more awesome content about Flutter., 
 
